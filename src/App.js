@@ -1,24 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
+import Form from './components/Form';
+import Card from './components/Card';
+import Footer1 from './components/Footer1';
+import About from './components/About';
+import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes, Navigate } from "react-router-dom";
+// import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='bodyy'>
+      <Nav />
+      {/* <Form/>
+      <Card/>  */}
+      <Routes>
+        <Route exact path="/About" Component={About} />
+        <Route path="/" element={<div><Form /><Card /></div>} />
+
+      </Routes>
+      <Footer1 />
     </div>
+    </>
   );
 }
 

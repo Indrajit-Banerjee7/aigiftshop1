@@ -1,7 +1,7 @@
-.App {
-  text-align: center;
-}
-
+ /* .App {
+  /* text-align: center; */
+  
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.bodyy{
+  /* background-color: antiquewhite; */
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.Nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.Form {
+  box-shadow: 0 0 30px rgba(0, 0 , 0 , .5);
+  margin: 60px 14rem ;
+
+  border-radius: 12px;
+  /* height:100vh; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.Card {
+  margin: 10px 7rem; 
+}
+
+.headerGift {
+  margin: 15px;
 }
