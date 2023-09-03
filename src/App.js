@@ -18,7 +18,7 @@ function App() {
       <Card/>  */}
       <Routes>
         <Route exact path="/About" Component={About} />
-        <Route path="/" element={<div><Form /><Card /></div>} />
+        <Route path="/" element={<div><div className='mid'><Form /></div><Card /></div>} />
 
       </Routes>
       <Footer1 />
