@@ -14,8 +14,6 @@ function App() {
     <>
     <div className='bodyy'>
       <Nav />
-      {/* <Form/>
-      <Card/>  */}
       <Routes>
         <Route exact path="/About" Component={About} />
         <Route path="/" element={<div><div className='mid'><Form /></div><Card /></div>} />
