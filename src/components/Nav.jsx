@@ -14,8 +14,8 @@ const Nav = () => {
       <a class="navbar-brand" href="#">AI Gift Shop</a>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
-          {/* <NavLink to="/" class="nav-link active" aria-current="page" style={{ color: 'white', textDecoration: 'none' }}>Home</NavLink> */}
+          {/* <a class="nav-link active" aria-current="page" href="/">Home</a> */}
+          <NavLink to="/" className="nav-link active" aria-current="page" style={{ color: 'white', textDecoration: 'none' }}>Home</NavLink>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
